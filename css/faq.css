@@ -1,0 +1,61 @@
+body {
+    letter-spacing: 1px;
+}
+
+/* Start breadcrumb */
+.breadcrumb-holder {
+    background-color:black;
+    margin: 0;
+}
+.breadcrumb {
+    background-color:black;
+    margin:0;
+    padding:10px 0;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color:var(--main-color);
+}
+.breadcrumb a:hover {
+    color: blanchedalmond;
+}
+/* End breadcrumb */
+
+/* Start About intro */
+.faq-intro {
+    padding-top:70px;
+    padding-bottom:70px;
+    background-color: black;
+    color: #666;
+}
+.faq-intro hr {
+    width: 40%;
+    border-top-color:black;
+}
+.faq-intro h1 {
+    color: #f09621;
+}
+.faq-intro .panel-heading {
+    padding: 20px 15px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: black;
+    color: #666;
+}
+.faq-intro .panel-heading:hover {
+    background-color: black;
+    color: #FFF;
+}
+.faq-intro .panel-heading a {
+    text-decoration: none;
+}
+.faq-intro .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444;
+}
+.faq-intro .panel-heading a.collapsed:after {
+    content:"\e080";
+    color: #999;
+}
