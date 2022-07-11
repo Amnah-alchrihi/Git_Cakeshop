@@ -1,2 +1,2 @@
-# Git_Makeup
-for makeup web site
+# Git_Cakeshop
+for cake shop website
